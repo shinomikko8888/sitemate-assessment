@@ -1,0 +1,18 @@
+.icon-tooltip {
+    position: absolute;
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0;
+    z-index: 99;
+    width: max-content;
+    cursor: default;
+    transition: opacity 0.3s ease-in-out; /* Add a fade-in transition */
+  }
+  
+  .icon-hover:hover + .icon-tooltip {
+    opacity: 1;
+  }
